@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "709232312894",
+    "firebase_url": "https://simple-blog-app-d8aae.firebaseio.com",
+    "project_id": "simple-blog-app-d8aae",
+    "storage_bucket": "simple-blog-app-d8aae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709232312894:android:99dab2565ca231e9",
+        "android_client_info": {
+          "package_name": "com.ydc.flutterblogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709232312894-9lolms0ob73kl07qffon7phdg1h90f59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeUwcXHj5wHVBv403efyx7igkhkr4Hrz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
