@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D154DFAE1CFC875D00CF2519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D154DFAD1CFC875D00CF2519 /* AppDelegate.swift */; };
+		D154DFB01CFC875D00CF2519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D154DFAF1CFC875D00CF2519 /* ViewController.swift */; };
+		D154DFB31CFC875D00CF2519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D154DFB11CFC875D00CF2519 /* Main.storyboard */; };
+		D154DFB51CFC875D00CF2519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D154DFB41CFC875D00CF2519 /* Assets.xcassets */; };
+		D154DFB81CFC875D00CF2519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D154DFB61CFC875D00CF2519 /* LaunchScreen.storyboard */; };
+		D154DFC31CFC875D00CF2519 /* Who_s_Round_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D154DFC21CFC875D00CF2519 /* Who_s_Round_Tests.swift */; };
+		D154DFCE1CFC875D00CF2519 /* Who_s_Round_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D154DFCD1CFC875D00CF2519 /* Who_s_Round_UITests.swift */; };
+		D16B04D21CFDABEC0028EE7E /* Single Beer 1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D16B04CF1CFDABEC0028EE7E /* Single Beer 1024x1024.jpg */; };
+		D16B04D31CFDABEC0028EE7E /* Homer Simpson Original.png in Resources */ = {isa = PBXBuildFile; fileRef = D16B04D01CFDABEC0028EE7E /* Homer Simpson Original.png */; };
+		D16B04D41CFDABEC0028EE7E /* Round of Beers Original.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D16B04D11CFDABEC0028EE7E /* Round of Beers Original.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D154DFBF1CFC875D00CF2519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D154DFA21CFC875C00CF2519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D154DFA91CFC875C00CF2519;
+			remoteInfo = "Who's Round?";
+		};
+		D154DFCA1CFC875D00CF2519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D154DFA21CFC875C00CF2519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D154DFA91CFC875C00CF2519;
+			remoteInfo = "Who's Round?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D154DFAA1CFC875D00CF2519 /* Who's Round?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who's Round?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D154DFAD1CFC875D00CF2519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D154DFAF1CFC875D00CF2519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D154DFB21CFC875D00CF2519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D154DFB41CFC875D00CF2519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D154DFB71CFC875D00CF2519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D154DFB91CFC875D00CF2519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D154DFBE1CFC875D00CF2519 /* Who's Round?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Who's Round?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D154DFC21CFC875D00CF2519 /* Who_s_Round_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_s_Round_Tests.swift; sourceTree = "<group>"; };
+		D154DFC41CFC875D00CF2519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D154DFC91CFC875D00CF2519 /* Who's Round?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Who's Round?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D154DFCD1CFC875D00CF2519 /* Who_s_Round_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_s_Round_UITests.swift; sourceTree = "<group>"; };
+		D154DFCF1CFC875D00CF2519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D16B04CF1CFDABEC0028EE7E /* Single Beer 1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Single Beer 1024x1024.jpg"; sourceTree = "<group>"; };
+		D16B04D01CFDABEC0028EE7E /* Homer Simpson Original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Homer Simpson Original.png"; sourceTree = "<group>"; };
+		D16B04D11CFDABEC0028EE7E /* Round of Beers Original.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Round of Beers Original.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D154DFA71CFC875C00CF2519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D154DFBB1CFC875D00CF2519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D154DFC61CFC875D00CF2519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D154DFA11CFC875C00CF2519 = {
+			isa = PBXGroup;
+			children = (
+				D154DFAC1CFC875D00CF2519 /* Who's Round? */,
+				D154DFC11CFC875D00CF2519 /* Who's Round?Tests */,
+				D154DFCC1CFC875D00CF2519 /* Who's Round?UITests */,
+				D154DFAB1CFC875D00CF2519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D154DFAB1CFC875D00CF2519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D154DFAA1CFC875D00CF2519 /* Who's Round?.app */,
+				D154DFBE1CFC875D00CF2519 /* Who's Round?Tests.xctest */,
+				D154DFC91CFC875D00CF2519 /* Who's Round?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D154DFAC1CFC875D00CF2519 /* Who's Round? */ = {
+			isa = PBXGroup;
+			children = (
+				D154DFAD1CFC875D00CF2519 /* AppDelegate.swift */,
+				D154DFAF1CFC875D00CF2519 /* ViewController.swift */,
+				D154DFB11CFC875D00CF2519 /* Main.storyboard */,
+				D16B04CF1CFDABEC0028EE7E /* Single Beer 1024x1024.jpg */,
+				D16B04D01CFDABEC0028EE7E /* Homer Simpson Original.png */,
+				D16B04D11CFDABEC0028EE7E /* Round of Beers Original.jpg */,
+				D154DFB41CFC875D00CF2519 /* Assets.xcassets */,
+				D154DFB61CFC875D00CF2519 /* LaunchScreen.storyboard */,
+				D154DFB91CFC875D00CF2519 /* Info.plist */,
+			);
+			path = "Who's Round?";
+			sourceTree = "<group>";
+		};
+		D154DFC11CFC875D00CF2519 /* Who's Round?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D154DFC21CFC875D00CF2519 /* Who_s_Round_Tests.swift */,
+				D154DFC41CFC875D00CF2519 /* Info.plist */,
+			);
+			path = "Who's Round?Tests";
+			sourceTree = "<group>";
+		};
+		D154DFCC1CFC875D00CF2519 /* Who's Round?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D154DFCD1CFC875D00CF2519 /* Who_s_Round_UITests.swift */,
+				D154DFCF1CFC875D00CF2519 /* Info.plist */,
+			);
+			path = "Who's Round?UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D154DFA91CFC875C00CF2519 /* Who's Round? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D154DFD21CFC875D00CF2519 /* Build configuration list for PBXNativeTarget "Who's Round?" */;
+			buildPhases = (
+				D154DFA61CFC875C00CF2519 /* Sources */,
+				D154DFA71CFC875C00CF2519 /* Frameworks */,
+				D154DFA81CFC875C00CF2519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Who's Round?";
+			productName = "Who's Round?";
+			productReference = D154DFAA1CFC875D00CF2519 /* Who's Round?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D154DFBD1CFC875D00CF2519 /* Who's Round?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D154DFD51CFC875D00CF2519 /* Build configuration list for PBXNativeTarget "Who's Round?Tests" */;
+			buildPhases = (
+				D154DFBA1CFC875D00CF2519 /* Sources */,
+				D154DFBB1CFC875D00CF2519 /* Frameworks */,
+				D154DFBC1CFC875D00CF2519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D154DFC01CFC875D00CF2519 /* PBXTargetDependency */,
+			);
+			name = "Who's Round?Tests";
+			productName = "Who's Round?Tests";
+			productReference = D154DFBE1CFC875D00CF2519 /* Who's Round?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D154DFC81CFC875D00CF2519 /* Who's Round?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D154DFD81CFC875D00CF2519 /* Build configuration list for PBXNativeTarget "Who's Round?UITests" */;
+			buildPhases = (
+				D154DFC51CFC875D00CF2519 /* Sources */,
+				D154DFC61CFC875D00CF2519 /* Frameworks */,
+				D154DFC71CFC875D00CF2519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D154DFCB1CFC875D00CF2519 /* PBXTargetDependency */,
+			);
+			name = "Who's Round?UITests";
+			productName = "Who's Round?UITests";
+			productReference = D154DFC91CFC875D00CF2519 /* Who's Round?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D154DFA21CFC875C00CF2519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "The Appy Teacher";
+				TargetAttributes = {
+					D154DFA91CFC875C00CF2519 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7QHQ7KUN23;
+					};
+					D154DFBD1CFC875D00CF2519 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D154DFA91CFC875C00CF2519;
+					};
+					D154DFC81CFC875D00CF2519 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D154DFA91CFC875C00CF2519;
+					};
+				};
+			};
+			buildConfigurationList = D154DFA51CFC875C00CF2519 /* Build configuration list for PBXProject "Who's Round?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D154DFA11CFC875C00CF2519;
+			productRefGroup = D154DFAB1CFC875D00CF2519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D154DFA91CFC875C00CF2519 /* Who's Round? */,
+				D154DFBD1CFC875D00CF2519 /* Who's Round?Tests */,
+				D154DFC81CFC875D00CF2519 /* Who's Round?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D154DFA81CFC875C00CF2519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16B04D31CFDABEC0028EE7E /* Homer Simpson Original.png in Resources */,
+				D154DFB81CFC875D00CF2519 /* LaunchScreen.storyboard in Resources */,
+				D154DFB51CFC875D00CF2519 /* Assets.xcassets in Resources */,
+				D16B04D41CFDABEC0028EE7E /* Round of Beers Original.jpg in Resources */,
+				D16B04D21CFDABEC0028EE7E /* Single Beer 1024x1024.jpg in Resources */,
+				D154DFB31CFC875D00CF2519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D154DFBC1CFC875D00CF2519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D154DFC71CFC875D00CF2519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D154DFA61CFC875C00CF2519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D154DFB01CFC875D00CF2519 /* ViewController.swift in Sources */,
+				D154DFAE1CFC875D00CF2519 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D154DFBA1CFC875D00CF2519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D154DFC31CFC875D00CF2519 /* Who_s_Round_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D154DFC51CFC875D00CF2519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D154DFCE1CFC875D00CF2519 /* Who_s_Round_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D154DFC01CFC875D00CF2519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D154DFA91CFC875C00CF2519 /* Who's Round? */;
+			targetProxy = D154DFBF1CFC875D00CF2519 /* PBXContainerItemProxy */;
+		};
+		D154DFCB1CFC875D00CF2519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D154DFA91CFC875C00CF2519 /* Who's Round? */;
+			targetProxy = D154DFCA1CFC875D00CF2519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D154DFB11CFC875D00CF2519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D154DFB21CFC875D00CF2519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D154DFB61CFC875D00CF2519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D154DFB71CFC875D00CF2519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D154DFD01CFC875D00CF2519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D154DFD11CFC875D00CF2519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D154DFD31CFC875D00CF2519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Who's Round?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appyteacher.whosround.Who-s-Round-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D154DFD41CFC875D00CF2519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Who's Round?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appyteacher.whosround.Who-s-Round-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D154DFD61CFC875D00CF2519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Who's Round?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appyteacher.whosround.Who-s-Round-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Who's Round?.app/Who's Round?";
+			};
+			name = Debug;
+		};
+		D154DFD71CFC875D00CF2519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Who's Round?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appyteacher.whosround.Who-s-Round-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Who's Round?.app/Who's Round?";
+			};
+			name = Release;
+		};
+		D154DFD91CFC875D00CF2519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Who's Round?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appyteacher.whosround.Who-s-Round-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Who's Round?";
+			};
+			name = Debug;
+		};
+		D154DFDA1CFC875D00CF2519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Who's Round?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appyteacher.whosround.Who-s-Round-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Who's Round?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D154DFA51CFC875C00CF2519 /* Build configuration list for PBXProject "Who's Round?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D154DFD01CFC875D00CF2519 /* Debug */,
+				D154DFD11CFC875D00CF2519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D154DFD21CFC875D00CF2519 /* Build configuration list for PBXNativeTarget "Who's Round?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D154DFD31CFC875D00CF2519 /* Debug */,
+				D154DFD41CFC875D00CF2519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D154DFD51CFC875D00CF2519 /* Build configuration list for PBXNativeTarget "Who's Round?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D154DFD61CFC875D00CF2519 /* Debug */,
+				D154DFD71CFC875D00CF2519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D154DFD81CFC875D00CF2519 /* Build configuration list for PBXNativeTarget "Who's Round?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D154DFD91CFC875D00CF2519 /* Debug */,
+				D154DFDA1CFC875D00CF2519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D154DFA21CFC875C00CF2519 /* Project object */;
+}
